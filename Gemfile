@@ -33,6 +33,20 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Custom Gems are here
+gem 'haml-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+gem 'redcarpet'
+
+gem 'redis'
+gem 'redis-rails'
+gem 'sidekiq'
+
+gem 'pry-rails'
+gem 'pry-byebug'
+gem 'hirb'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
