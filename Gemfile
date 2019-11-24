@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Custom Gems are here
 gem 'haml-rails'
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'autoprefixer-rails'
 gem 'redcarpet'
