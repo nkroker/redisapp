@@ -5,3 +5,5 @@
     %li
       = letter.name
       %small=letter.score
+      =link_to raw("&#x25B2;"), upvote_letter_path(letter), method: :patch
+      =link_to raw("&#x25BC;"), downvote_letter_path(letter), method: :patch

@@ -44,6 +44,7 @@ gem 'figaro'
 gem 'redis'
 gem 'redis-rails'
 gem 'sidekiq'
+gem 'httparty'
 
 gem 'pry-rails' # Gem for managing the commmandline using pry
 gem 'pry-byebug' # For debugging purposes
