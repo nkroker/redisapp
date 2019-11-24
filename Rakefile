@@ -4,3 +4,10 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+# namespace :test do
+#   Rake::TestTask.new do |test|
+#     t.name = 'lib'
+#     t.pattern = "test/lib/**/*_test.rb"
+#   end
+# end

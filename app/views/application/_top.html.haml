@@ -1,0 +1,7 @@
+%h2 Top 10
+  
+%ol
+  - Letter.top_10.each do |letter|
+    %li
+      = letter.name
+      %small=letter.score

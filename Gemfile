@@ -35,17 +35,19 @@ gem 'jbuilder', '~> 2.5'
 
 # Custom Gems are here
 gem 'haml-rails'
-gem 'bootstrap-sass'
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
 gem 'autoprefixer-rails'
 gem 'redcarpet'
+gem 'figaro'
 
 gem 'redis'
 gem 'redis-rails'
 gem 'sidekiq'
 
-gem 'pry-rails'
-gem 'pry-byebug'
-gem 'hirb'
+gem 'pry-rails' # Gem for managing the commmandline using pry
+gem 'pry-byebug' # For debugging purposes
+gem 'hirb' # For printing out the data in more readable manner
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

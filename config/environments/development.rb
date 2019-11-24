@@ -35,6 +35,9 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.action_controller.perform_caching = true
+  config.cache_store = :redis_cache_store,{ url: ENV['REDIS_URL'] }
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
