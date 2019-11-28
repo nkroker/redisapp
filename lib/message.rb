@@ -1,3 +1,6 @@
+require 'httparty'
+
+
 class Message
   def initialize body, user, url
     @body = body
@@ -6,7 +9,7 @@ class Message
   end
 
   def send
-    HttParty.post "http://localhost:3010/messages", body: {
+    HTTParty.post "http://localhost:3010/messages", body: {
       message: {
         body: @body, 
         user: @user,

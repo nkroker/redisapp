@@ -47,7 +47,7 @@ gem 'sidekiq'
 gem 'httparty'
 
 gem 'pry-rails' # Gem for managing the commmandline using pry
-gem 'pry-byebug' # For debugging purposes
+gem 'byebug' # For debugging purposes
 gem 'hirb' # For printing out the data in more readable manner
 
 # Reduces boot times through caching; required in config/boot.rb
