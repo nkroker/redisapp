@@ -1,6 +1,6 @@
 class LettersController < ApplicationController
   def index
-    @letters = Letter.all.limit(50).order(score: :asc)
+    @letters = Letter.all.limit(50).order(score: :desc)
   end
 
   def upvote
